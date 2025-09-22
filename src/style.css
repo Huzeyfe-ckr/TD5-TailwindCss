@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import "tailwindcss";
 @theme inline{
-  --color-bg: var(--clr-bg);
+
+--color-bg: var(--clr-bg);
 
 --background-image: var(--mon-image);
 --color-green: var(--clr-green-300);
+--color-btn: var(--clr-green);
+--color-bg: var(--clr-bg);
+--font-grotesk: "Space Grotesk", sans-serif; 
+--color-gray: var(--clr-gray-300);
+--color-gray-400: var(--clr-gray-400);
 
 
   
@@ -28,19 +35,9 @@
   --clr-green-300: oklch(79.2% 0.209 151.711);
 
   --mon-image: url("/image-profile-mobile.webp");
+  
     
   }
-  
-  .bg-img {
-    background-image: var(--background-image);
-    background-size: cover;
-    background-position: center;
-  }
-
-  .bg-clr {
-    background-color: var(--color-bg);
-  }
-
 }
 
 
